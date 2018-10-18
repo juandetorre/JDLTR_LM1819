@@ -1,0 +1,27 @@
+table{
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 4px;
+    text-align: center;
+}
+
+td, th{
+    border:2px solid black;
+
+}
+
+#capsup{
+    caption-side: top;
+}
+
+#capinf{
+    caption-side: bottom;
+}
+
+.marron{
+    background-color: burlywood;
+}
+
+.azul{
+    background-color: cornflowerblue;
+}
