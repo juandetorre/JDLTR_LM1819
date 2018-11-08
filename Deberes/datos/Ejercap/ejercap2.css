@@ -1,0 +1,27 @@
+#div1 {
+    background-color: #997366;
+    width: 1300px;
+    height: 550px;
+}
+
+#div2 {
+    background-color: #9d847b;
+    text-align: center;
+
+}
+
+.div3 {
+    background-color: #b39f98;
+    border: 2px solid white;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+
+h2 {
+    background-color: white;
+}
+
+.parr {
+    border: 4px solid #422b24;
+}
