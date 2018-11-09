@@ -1,0 +1,58 @@
+#divnec{
+    background-color: #c7c8d1;
+    width: 1300px;
+    height: 500px;
+}
+
+#div1{
+    margin-bottom: 5px;
+    
+}
+
+#div2{
+    margin-bottom: 5px;
+}
+
+
+
+
+h1{
+    color: #575a75;
+    text-align: center;
+}
+
+.nara{
+    background-color: #cc5500;
+    margin: 0;
+    padding: 0;
+}
+
+#p1{
+    background-color: #db5b00;
+    margin: 0;
+    padding: 0;
+}
+
+#p2{
+    background-color: #ffa666;
+    margin: 0;
+    padding: 0;
+}
+
+.gabi{
+    background-color: #e600e6;
+    margin: 0;
+    padding: 0;
+}
+
+.p3{
+    background-color: #ff80ff;
+    margin: 0;
+    padding: 0;
+}
+
+.p4{
+    background-color: #ffccff;
+    margin: 0;
+    padding: 0;
+}
