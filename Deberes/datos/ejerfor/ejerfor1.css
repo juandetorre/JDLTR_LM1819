@@ -1,0 +1,11 @@
+.par{
+    color: blueviolet;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
