@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,85 @@
     <link rel='stylesheet' type="text/css" href="ejerfor1.css">
     <title>Ejerfor1</title>
 </head>
+
 <body>
     <table id='table1'>
-        <tr>
-            <td><p class='par'>Nombre:</p></td>
-            <td><input type='text' method='get' name='name' autofocus required></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Correo electróncico</p></td>
-            <td><input type='text' method='get' nombre='email' required></td>
-        </tr>
-        <tr>
-            <td><p class='par'>URL:</p></td>
-            <td><input type="url" method='get' name="url" placeholder="Escribe la URL de tu página web personal"></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Fecha</p></td>
-            <td><input type="date" method='get' name="date"></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Tiempo:</p></td>
-            <td><input type='time' method='get' name='time'></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Fecha y hora:</p></td>
-            <td><input type='datetime' method='get' name='fyh'></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Mes:</p></td>
-            <td><input type='month' method='get' name='month'</td>
-        </tr>
-        <tr>
-            <td><p class='par'>Semana:</p></td>
-            <td><input type='week' method='get' name='semana'</td>
-        </tr>
-        <tr>
-            <td><p class='par'>Número:</p></td>
-            <td><input type='number' method='get' name='numero' min="-10" max="10"></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Teléfono:</p></td>
-            <td><input type='tel' method='get' name='tel'></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Término de búsqueda:</p></td>
-            <td><input type='search' method='get' name='buscar'></td>
-        </tr>
-        <tr>
-            <td><p class='par'>Color favorito:</p></td>
-            <td><input type='color' method='get' name='colorr'></td>
-        </tr>
-    
+        <form action="" method="GET">
+            <tr>
+                <td>
+                    <p class='par'>Nombre:</p>
+                </td>
+                <td><input type='text' name='name' autofocus required></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Correo electróncico</p>
+                </td>
+                <td><input type='text' nombre='email' required></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>URL:</p>
+                </td>
+                <td><input type="url" name="url" placeholder="Escribe la URL de tu página web personal"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Fecha</p>
+                </td>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Tiempo:</p>
+                </td>
+                <td><input type='time' name='time'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Fecha y hora:</p>
+                </td>
+                <td><input type='datetime' name='fyh'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Mes:</p>
+                </td>
+                <td><input type='month' name='month'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Semana:</p>
+                </td>
+                <td><input type='week' name='semana'> </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Número:</p>
+                </td>
+                <td><input type='number' name='numero' min="-10" max="10"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Teléfono:</p>
+                </td>
+                <td><input type='tel' name='tel'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Término de búsqueda:</p>
+                </td>
+                <td><input type='search' name='buscar'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Color favorito:</p>
+                </td>
+                <td><input type='color' name='colorr'></td>
+            </tr>
+        </form>
     </table>
-    <input type="submit" method='get' name='enviar'>
+    <input type="submit" ' name=' enviar'>
 </body>
-</html>
 
+</html>

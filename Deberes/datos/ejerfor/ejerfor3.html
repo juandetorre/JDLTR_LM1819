@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejerfor3</title>
+</head>
+
+<body>
+    <table>
+        <form action="" method="GET">
+            <tr>
+                <td>
+                    <p>Nombre:</p>
+                </td>
+                <td><input type='text' name='name' autofocus required placeholder="Indique el nombre" autocomplete=""></td>
+            </tr>
+            <tr>
+                <td>Correo electrónico:</td>
+                <td><input type='text' nombre='email' required></td>
+            </tr>
+            <tr>
+                <td>URL:</td>
+                <td><input type="url" name="url" placeholder="Escribe la URL de tu página web"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Fecha:</p>
+                </td>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td>Tiempo</td>
+                <td><input type='time' name='time'></td>
+            </tr>
+            <tr>
+                <td>Fecha y hora:</td>
+                <td><input type='datetime' name='fyh'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p class='par'>Mes:</p>
+                </td>
+                <td><input type='month' name='month'></td>
+            <tr>
+                <td>
+                    <p>Semana:</p>
+                </td>
+                <td><input type='week' name='semana'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Número (min 0 max 10)</p>
+                </td>
+                <td><input type='number' name='numero' min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td><input type='tel' name='tel'></td>
+            </tr>
+            <tr>
+                <td>Término de busqueda:</td>
+                <td><input type='search' name='buscar'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Color favorito:</p>
+                </td>
+                <td><input type='color' name='colorr'></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Datalist:</p>
+                </td>
+                <td>
+                    <input list='lugar de nac'>
+                    <datalist id='lugar de nac'>
+                        <option value="Sevilla">
+                        <option value="Huelva">
+                        <option value="Cadiz">
+                        <option value="Malaga">
+                        <option value="Cordoba">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><p>File:</p></td>
+                <td><input type='file' name='filelo' accept="file_extension|image/*|audio/*|media_type"></td>
+            </tr>
+            <tr>
+                <td><p>Password:</p></td>
+                <td><input type="password" min='8'</td>
+            </tr>
+        </form>
+    </table>
+    <input type="submit" ' name=' enviar'>
+</body>
+
+</html>

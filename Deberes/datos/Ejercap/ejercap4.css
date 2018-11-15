@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+body{
+    font-family: 'playball', sans-serif;
+}
+
+
+
 #encabezado{
     text-align: left;
     margin: 0;
@@ -9,9 +15,7 @@
 #div1{
     background-color: #e64d19;
     width: 1200px;
-    height: 75px;
-    font-family: 'Spicy Rice', cursive;
-
+    height: 45px;
 }
 
 #divg{
@@ -40,7 +44,7 @@
 #div2{
     background: #ffd9cc;
     width: 1100px;
-    height: 500px;
+    height: 350px;
     margin-left: 50px;
     margin-top: 25px;
 
@@ -56,10 +60,13 @@
 #pone{
     text-align: left;
     color: black;
+
 }
 
 #img{
     float: right;
-    margin-top: 6px;
+    margin-top: 8px;
+    border-left: #e64d19 5px solid;
+    padding: 10px 20px;
 
 }
