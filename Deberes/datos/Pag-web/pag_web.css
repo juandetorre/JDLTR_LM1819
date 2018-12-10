@@ -1,0 +1,42 @@
+header{
+    background:#abeaab;
+    height: 100px;
+}
+
+#div1{
+    
+}
+
+#div2{
+  float: left;
+}
+#img1{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+}
+
+#h11{
+    color: #880217;
+}
+
+
+div3{
+    height: 15px;
+}
+ #nav1{
+     align-content: left;
+     background: #a2cae1;
+     height: 25px;
+ }
+
+ .nav11{
+     color: #78a0bf;
+     text-decoration: none;
+ }
+ #div3{
+     background: #fff8c0;
+     height: 500px;
+     width: 1500px;
+ }
