@@ -8,7 +8,16 @@
 </head>
 <body>
     <?php
-    el date
+$a = rand(1,100);
+if ($a >= 1 and $a < 10){
+    print "$a Tiene un digito";
+}elseif ($a >= 10 and $a < 100){
+        print " $a Tiene dos digitos";
+    } else {
+        print "Tiene 3 digitos";
+    }
+
+
     ?>
 </body>
 </html>

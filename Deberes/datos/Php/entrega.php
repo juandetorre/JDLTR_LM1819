@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    el date
+    
     ?>
 </body>
 </html>
