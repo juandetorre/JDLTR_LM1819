@@ -7,18 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-   <?php
-   $cuenta = 0;
-   for ($i=6; $i >= 0; $i--) {
-       if ($i % 2 == 0) {
-           print "$i";
-       } else {
-           $cuenta++;
-       }
-    }
-    print "Hay $cuenta numeros impares";
-   ?>
-
-
+    <?php
+    
+    ?>
 </body>
 </html>

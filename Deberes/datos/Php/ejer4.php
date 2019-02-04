@@ -7,17 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-   <?php
-   $cuenta = 0;
-   for ($i=6; $i >= 0; $i--) {
-       if ($i % 2 == 0) {
-           print "$i";
-       } else {
-           $cuenta++;
-       }
+    <?php
+    $peseta = 166;
+    for ($i=1; $i < 11; $i++) { 
+        print "<p>$i euros son" . $i * $peseta .  "pesetas</p>";
     }
-    print "Hay $cuenta numeros impares";
-   ?>
+    ?>
 
 
 </body>
