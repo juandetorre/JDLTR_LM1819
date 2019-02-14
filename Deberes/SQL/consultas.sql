@@ -1,3 +1,6 @@
+
+
+
 1. Mostrar el apellido, fecha de alta y número de departamento de cada empleado.+
 Select last_name, hire_date, department_id from EMPLOYEES;
 
@@ -57,7 +60,7 @@ Select * from EMPLOYEES where last_name like 'A%' and email like '%E%';
 Select * from EMPLOYEES where salary BETWEEN 10000 and 17000;
 
 20. Obtener los empleados que tengan una comisión superior a 600. 
-
+Select * from EMPLOYEES where commission_pct > '600';
 21. Seleccionar los datos de los empleados ordenados por número de departamento, y dentro de cada departamento ordenados por apellido. 
 Select * from EMPLOYEES order by department_id , last_name ASC;
 
@@ -65,25 +68,37 @@ Select * from EMPLOYEES order by department_id , last_name ASC;
 Select * from EMPLOYEES where email like '%h' and salary > '2000';
 
 23. Datos de los departamentos cuya localización empiece por ‘B’. 
-Select * from DEPARTMENTS where location_id
+Select * from DEPARTMENTS where location_id like 'B%';
+
 24. Datos de los empleados que tengan un salario superior a 200 y pertenezcan al departamento número 10. 
+Select * from EMPLOYEES where salary > 200 and department_id = '10';
 
 25. Mostrar los apellidos de los empleados que no tengan comisión. 
+Select last_name from EMPLOYEES where commission_pct is null;
 
 26. Mostrar los apellidos de los empleados que no tengan comisión y cuyo apellido empiece por ‘J’. 
+Select last_name from EMPLOYEES where commission_pct is null and last_name like 'J%';
 
 27. Seleccionar el apellido, salario y número de departamento de los empleados cuyo salario sea mayor que 200000. 
+Select last_name, salary, department_id from EMPLOYEES where salary > 20000;
 
 28. Obtener los apellidos de todos los empleados en minúscula. 
+Select lower(last_name) from EMPLOYEES;
 
 29. En una consulta concatena el apellido de cada empleado con su oficio. 
+Select CONCAT(last_name, job_id) from EMPLOYEES;
 
 30. Mostrar el apellido y la longitud del apellido (función LENGTH) de todos los empleados, ordenados por la longitud de los apellidos de los empleados descendentemente. 
+Select last_name, LENGTH(last_name) from EMPLOYEES order by LENGTH(last_name) DESC;
 
 31. Obtener el año de contratación de todos los empleados (función TO_CHAR). 
+Select TO_CHAR(hire_date) from EMPLOYEES;
 
 32. Mostrar los datos de los empleados que hayan sido contratados en el año 2004. 
+Select * from EMPLOYEES where hire_date like'%/%/04';
 
 33. Mostrar los datos de los empleados que hayan sido contratados en el mes de febrero de cualquier año. 
+Select * from EMPLOYEES where hire_date like '%/02/%';
 
 34. Mostrar los datos de los empleados cuyo apellido empiece por 'S' y hayan sido contratados en el año 2006. 
+Select * from EMPLOYEES where last_name like 'S%' and hire_date like '%/%/06';
