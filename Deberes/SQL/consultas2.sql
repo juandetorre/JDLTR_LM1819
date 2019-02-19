@@ -32,7 +32,7 @@ Select first_name, salary*(trunc(months_between(sysdate, hire_date))) from emplo
 Select first_name, trunc(salary / 30,2) from employees;
 
 11.- Muestra los empleados que tengan en su apellido al menos dos letras 'a'.
-Select first_name 
+Select first_name from employees where last_name like '%a%a';??????????
 
 12.- Muestra los datos de los empleados cuyo apellido tenga mas de cinco letras.
 
