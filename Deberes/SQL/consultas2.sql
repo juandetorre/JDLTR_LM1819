@@ -35,21 +35,21 @@ Select first_name, trunc(salary / 30,2) from employees;
 Select first_name from employees where last_name like '%a%a';??????????
 
 12.- Muestra los datos de los empleados cuyo apellido tenga mas de cinco letras.
-
+Select * from employees where last_name like '______%';
 
 13.- Muestra un mensaje de saludo a cada empleado con el formato 'Hola apellido_empleado'.
-
+Select concat(RPAD('hola', last_name,'_'), first_name) from employees;
 
 14.- Muestra el apellido de cada empleado junto con el nombre del mes en el que entró en la empresa.
-
+Select last_name, 
 
 15.- Muestra el apellido del primer empleado por orden alfabético.
-
+Select last_name, 
 
 16.-. Muestra el número de directores que hay en la empresa.
-
+Select * from employees where job_id like 'FI_MGR';
 
 17.- Muestra los empleados que llevan más de 6 años en la empresa.
-
+Select * from employees where 
 
 18.- Muestra los empleados que fueron dados de alta entre el 01/03/1988 y el 30/06/1989.
